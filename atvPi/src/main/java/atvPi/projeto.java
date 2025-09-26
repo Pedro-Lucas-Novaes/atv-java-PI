@@ -23,7 +23,7 @@ public class projeto {
     }
     
     public void exibir(){
-        System.out.println("Nome do projeto: " + this.nome_projeto);
+        System.out.println("\nNome do projeto: " + this.nome_projeto);
         System.out.println("Descricao do projeto: " + this.descricao_projeto);
         System.out.println("Publico-alvo do projeto: " + this.publico_projeto);
         System.out.println("Objetivo do projeto: " + this.objetivo_projeto);
