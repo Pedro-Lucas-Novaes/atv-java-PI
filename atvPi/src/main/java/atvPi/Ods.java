@@ -28,25 +28,3 @@ public class Ods {
     System.out.println("ODS 10 - Reducao das Desigualdades:  " + this.dez);
     }
 }
-    
-    
-    
-//    static class ODS {
-//        private ArrayList<String> odsRelacionados = new ArrayList<>();
-//
-//        public void cadastrarODS(Scanner scanner) {
-//            System.out.println("Quantos ODS deseja cadastrar?");
-//            int qtd = scanner.nextInt();
-//            scanner.nextLine();
-//            for (int i = 0; i < qtd; i++) {
-//                System.out.print("Digite o ODS #" + (i + 1) + ": ");
-//                odsRelacionados.add(scanner.nextLine());
-//            }
-//        }
-//
-//        public ArrayList<String> getODSRelacionados() {
-//            return odsRelacionados;
-//        }
-//    }
-
-
