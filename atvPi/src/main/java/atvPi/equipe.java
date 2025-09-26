@@ -6,6 +6,7 @@ package atvPi;
 
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.Arrays;
 
 /**
  *
@@ -13,21 +14,18 @@ import java.util.Scanner;
  */
 public class equipe {
     
-    static class Equipe {
-        private ArrayList<String> membros = new ArrayList<>();
+        String[] membros = {
+            "Pedro Lucas de Novaes Dutra",
+            "Gabriela Pereira Lino",
+            "Danieli Fiel Reis",
+            "Beatriz Hermenegildo Egen"
+            };
 
-        public void cadastrarEquipe(Scanner scanner) {
-            System.out.println("Quantos membros a equipe possui?");
-            int qtd = scanner.nextInt();
-            scanner.nextLine();
-            for (int i = 0; i < qtd; i++) {
-                System.out.print("Digite o nome do membro #" + (i + 1) + ": ");
-                membros.add(scanner.nextLine());
+        public void exibir() {
+            System.out.println("\nMembros da Equipe:");
+            for(String membro : membros){
+                System.out.println(membro);
             }
-        }
-
-        public ArrayList<String> getMembros() {
-            return membros;
-        }
-    }
+            
+    }  
 }
