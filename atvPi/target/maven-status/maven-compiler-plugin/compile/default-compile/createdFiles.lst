@@ -1,9 +1,5 @@
-atvPi\projeto.class
-<<<<<<< HEAD
-atvPi\AtvPi.class
 atvPi\Ods.class
-atvPi\equipe$Equipe.class
-=======
->>>>>>> d188d8e8d1e5520ad472025386fa33de80ed951c
+atvPi\projeto.class
 atvPi\equipe.class
 atvPi\usuario.class
+atvPi\AtvPi.class

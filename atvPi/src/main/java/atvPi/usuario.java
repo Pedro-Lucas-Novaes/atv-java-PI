@@ -4,43 +4,25 @@
  */
 package atvPi;
 
-import java.util.ArrayList;
-import java.util.Scanner;
 
+import java.util.ArrayList;
+import java.util.Scanner;        
 /**
  *
- * @author ender
+ * @author fatec-dsm2
  */
-
 public class usuario {
     
     public boolean fazerLogin(Scanner scanner) {
         System.out.println("\n--- LOGIN DE ACESSO ---");
         
         System.out.print("Usuario: ");
-        scanner.nextLine(); 
+        scanner.nextLine();
         
         System.out.print("Senha: ");
         scanner.nextLine();
         
         System.out.println("\nLogin realizado com sucesso! Bem-vindo(a).");
-        return true; 
+        return true;
     }
-}
-//public class usuario {
-//        private ArrayList<String> user = new ArrayList<>();
-//
-//        public void cadastrarUsuario(Scanner scanner) {
-//            System.out.println("User: ");
-//            scanner.nextLine();
-//           
-//                System.out.print("Senha: ");
-//                user.add(scanner.nextLine());
-//           
-//        }
-//
-//        public ArrayList<String> getUser() {
-//            return user;
-//        }
-//    }
-
+}	

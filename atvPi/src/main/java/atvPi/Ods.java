@@ -27,8 +27,4 @@ public class Ods {
     System.out.println("ODS 4 - Educacao de Qualidade: " + this.quatro);
     System.out.println("ODS 10 - Reducao das Desigualdades:  " + this.dez);
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> d188d8e8d1e5520ad472025386fa33de80ed951c
