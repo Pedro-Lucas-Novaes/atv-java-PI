@@ -8,12 +8,13 @@ public class usuario {
         System.out.println("\n--- LOGIN DE ACESSO ---");
 
         System.out.print("Usuario: ");
-        scanner.nextLine(); // apenas lê, sem validar
+        scanner.nextLine(); 
 
         System.out.print("Senha: ");
-        scanner.nextLine(); // apenas lê, sem validar
+        scanner.nextLine(); 
 
         System.out.println("\nLogin realizado com sucesso! Bem-vindo(a).");
-        return true; // sempre retorna true
+        return true; 
     }
 }
+
